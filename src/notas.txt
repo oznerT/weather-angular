@@ -1,0 +1,3 @@
+Creamos los componentes y los servicios
+
+Los servicios se pueden utilizar para 3 cosas, en este caso lo usamos para peticiones http. Tambien se puede usar en comunicacion entre componentes o reutulizacion de codigo entre componentes.
