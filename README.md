@@ -1,27 +1,47 @@
-# Clima
+# Aplicación de Clima
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+Esta es una aplicación de clima simple desarrollada con Angular que te permite obtener la temperatura y la humedad de una ciudad utilizando la API de OpenWeatherMap.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Ingreso de ciudad: Puedes ingresar el nombre de una ciudad en el campo de texto para obtener información sobre el clima actual.
+- Obtención de datos: La aplicación realiza una solicitud a la API de OpenWeatherMap para obtener los datos de temperatura y humedad de la ciudad ingresada.
+- Visualización de resultados: Los resultados se muestran en la interfaz de usuario, incluyendo la temperatura, la humedad y una descripción del clima.
+- Imagen de clima predeterminada: Se muestra una imagen de clima predeterminada en caso de que no se encuentre disponible una imagen específica para la ciudad.
 
-## Code scaffolding
+## Configuración
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona el repositorio o descarga los archivos de la aplicación.
+2. Asegúrate de tener Node.js y Angular CLI instalados en tu sistema.
+3. Abre una terminal en el directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
-## Build
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ng serve
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Abre tu navegador web y visita la siguiente dirección: `http://localhost:4200`. La aplicación de clima debería cargarse correctamente.
 
-## Running end-to-end tests
+## Personalización
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Puedes personalizar la apariencia y el comportamiento de la aplicación de acuerdo a tus necesidades. Aquí hay algunos puntos que puedes considerar:
 
-## Further help
+- Estilos: Modifica los estilos CSS en los archivos `.css` para personalizar el aspecto de los componentes.
+- Imágenes de clima: Reemplaza la imagen de clima predeterminada en `dashboard.component.html` con imágenes personalizadas según corresponda.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Recursos
+
+- [Angular Documentation](https://angular.io/docs)
+- [OpenWeatherMap API Documentation](https://openweathermap.org/api)
+
+## Contribución
+
+Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
+
+1. Realiza un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios necesarios y realiza los commits (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Envía tus cambios a tu repositorio remoto (`git push origin feature/nueva-funcionalidad`).
+5. Abre una pull request en este repositorio.
+
+ proyecto está licenciado bajo la [MIT License](LICENSE).
